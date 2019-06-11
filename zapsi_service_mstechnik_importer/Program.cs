@@ -99,14 +99,14 @@ namespace zapsi_service_mstechnik_importer {
             LogInfo($"[ MAIN ] --INF-- Comparing orders: " + mstechnikorders.Count + "-" + zapsiOrders.Count, logger);
             foreach (var order in mstechnikorders) {
                 if (!zapsiOrders.Contains(order.Name)) {
-                    LogInfo($"[  {order.Oid} ] --INF-- Adding new order: " + order.Oid, logger);
+                    LogInfo($"[  {order.Oid} ] --INF-- Adding new order: " + order.Name, logger);
                     CreateNewOrderInZapsi(order, logger);
                 }
             }
         }
 
         private static void CreateNewOrderInZapsi(Order order, ILogger logger) {
-            var productId = GetProductIdFromZapsiProductTable(order.ProductName, logger);
+            var productId = GetProductIdFromZapsiProductTable(order.ProductName, order.Cycle, logger);
             var connection = new MySqlConnection($"server={_ipAddress};port={_port};userid={_login};password={_password};database={_database};");
             try {
                 connection.Open();
@@ -130,12 +130,12 @@ namespace zapsi_service_mstechnik_importer {
             }
         }
 
-        private static int GetProductIdFromZapsiProductTable(string productname, ILogger logger) {
-            var productId = 0;
+        private static int GetProductIdFromZapsiProductTable(string orderProductName, string orderProductCycle, ILogger logger) {
+            var productId = 1;
             var connection = new MySqlConnection($"server={_ipAddress};port={_port};userid={_login};password={_password};database={_database};");
             try {
                 connection.Open();
-                var selectQuery = $"select * from zapsi2.product where Name like '{productname}'";
+                var selectQuery = $"select * from zapsi2.product where Name like '{orderProductName}' and Cycle like '{orderProductCycle}'";
                 var command = new MySqlCommand(selectQuery, connection);
                 try {
                     var reader = command.ExecuteReader();
@@ -206,6 +206,7 @@ namespace zapsi_service_mstechnik_importer {
                         order.Barcode = Convert.ToString(reader["ML"]);
                         order.RequestedAmount = Convert.ToString(reader["MNOZ_POZADAVEK"]);
                         order.ProductName = Convert.ToString(reader["CIS_ZB"]);
+                        order.Cycle =Convert.ToString(reader["CAS_KUS"]);
                         orders.Add(order);
                     }
                     reader.Close();
@@ -245,7 +246,7 @@ namespace zapsi_service_mstechnik_importer {
                 connection.Open();
                 var command = connection.CreateCommand();
                 command.CommandText = $"INSERT INTO `zapsi2`.`product` (`Name`, `Barcode`, `Cycle`, `IdleFromTime`, `ProductStatusID`, `Deleted`, `ProductGroupID`) " +
-                                      $"VALUES ('{product.Name}', '{product.Name}', DEFAULT, null, DEFAULT, DEFAULT, null);";
+                                      $"VALUES ('{product.Name}', '{product.Name}', '{product.Cycle}', '30', DEFAULT, DEFAULT, null);";
                 try {
                     command.ExecuteNonQuery();
                     LogInfo($"[  {product.Name} ] --INF-- Added from external database to Zapsi database", logger);
@@ -306,6 +307,7 @@ namespace zapsi_service_mstechnik_importer {
                     while (reader.Read()) {
                         var product = new Product();
                         product.Name = Convert.ToString(reader["CIS_ZB"]);
+                        product.Cycle = Convert.ToString(reader["CAS_KUS"]);
                         products.Add(product);
                     }
                     reader.Close();
