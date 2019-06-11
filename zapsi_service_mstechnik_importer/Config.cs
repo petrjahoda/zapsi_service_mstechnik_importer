@@ -1,4 +1,4 @@
-namespace zapsi_service_optimont_importer {
+namespace zapsi_service_mstechnik_importer {
     public class Config {
         public string Ipaddress { get; set; }
         public string Database { get; set; }

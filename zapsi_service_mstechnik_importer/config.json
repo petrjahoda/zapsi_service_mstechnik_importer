@@ -1,0 +1,1 @@
+{"Ipaddress":"zapsidatabase","Database":"zapsi2","Port":"3306","Login":"zapsi_uzivatel","Password":"zapsi","Customer":"unactivatedsoftware","Email":"jahoda@zapsi.eu","DownloadEvery":"60000","DeleteFilesAfterDays":"-20","DatabaseType":"mysql","SmtpClient":"smtp.forpsi.com","SmtpUsername":"support@zapsi.eu","SmtpPassword":"Zps05.....","SmtpPort":"25"}

@@ -1,0 +1,7 @@
+2019-06-11T10:23:17.1664431+02:00  [INF] 11/06/2019 10:23:17 [ MAIN ] --INF-- Program built at: 2019.2.2.31 (1990560e)
+2019-06-11T10:23:17.7900193+02:00  [INF] 11/06/2019 10:23:17 [ MAIN ] --INF-- Config file created. (5f4fa8a5)
+2019-06-11T10:23:17.7951032+02:00  [INF] 11/06/2019 10:23:17 [ MAIN ] --INF-- Backup file created. (8be20de7)
+2019-06-11T10:23:18.0364709+02:00  [INF] 11/06/2019 10:23:18 [ MAIN ] --INF-- Config loaded from file for customer: unactivatedsoftware (601eae2d)
+2019-06-11T10:23:19.5787825+02:00  [INF] 11/06/2019 10:23:19 [ MAIN ] --INF-- Email sent: Computer: DESKTOP-7512KFD, User: jahod, Program started at 11/06/2019 10:23:18, Version 2019.2.2.31 (7a77dc2b)
+2019-06-11T10:23:20.5955828+02:00  [INF] 11/06/2019 10:23:20 [ MAIN ] --INF-- Transferring users (a7b3c157)
+2019-06-11T10:23:20.5963916+02:00  [INF] 11/06/2019 10:23:20 [ MAIN ] --INF-- Downloading users from external database (ce63bf6b)

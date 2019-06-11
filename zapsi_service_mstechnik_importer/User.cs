@@ -1,8 +1,8 @@
-namespace zapsi_service_optimont_importer {
+namespace zapsi_service_mstechnik_importer {
     public class User {
-        public int Oid { get; set; }
+        public string Login { get; set; }
         public string FirstName { get; set; }
         public string Surname { get; set; }
-        public string RFID { get; set; }
+        public int UserTypeId { get; set; }
     }
 }
