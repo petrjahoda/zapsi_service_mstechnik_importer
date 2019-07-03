@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\jahod\.Rider2019.2\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\jahod\.Rider2019.2\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\jahod\.Rider2019.2\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\jahod\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\jahod\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_zapsi_service_mstechnik_importer.1612470291.00" t="ExcludeRecursive" />
+    <e p="C:\Users\jahod\zapsi.eu\Zapsi - Documents\Software\Petr Jahoda\zapsi_service_mstechnik_importer" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="zapsi_service_mstechnik_importer" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Config.cs" t="Include" />
+        <e p="config.json" t="Include" />
+        <e p="config.json.backup" t="Include" />
+        <e p="create_latest.ps1" t="Include" />
+        <e p="dockerfile" t="Include" />
+        <e p="Logs" t="Include">
+          <e p="0-main-20190611.txt" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="zapsi_service_mstechnik_importer.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Order.cs" t="Include" />
+        <e p="Product.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="publish" t="Include">
+          <e p="Microsoft.Extensions.Configuration.Abstractions.dll" t="Include" />
+          <e p="Microsoft.Extensions.Configuration.Binder.dll" t="Include" />
+          <e p="Microsoft.Extensions.Configuration.dll" t="Include" />
+          <e p="Microsoft.Extensions.Configuration.FileExtensions.dll" t="Include" />
+          <e p="Microsoft.Extensions.Configuration.Json.dll" t="Include" />
+          <e p="Microsoft.Extensions.DependencyInjection.Abstractions.dll" t="Include" />
+          <e p="Microsoft.Extensions.FileProviders.Abstractions.dll" t="Include" />
+          <e p="Microsoft.Extensions.FileProviders.Physical.dll" t="Include" />
+          <e p="Microsoft.Extensions.FileSystemGlobbing.dll" t="Include" />
+          <e p="Microsoft.Extensions.Logging.Abstractions.dll" t="Include" />
+          <e p="Microsoft.Extensions.Logging.dll" t="Include" />
+          <e p="Microsoft.Extensions.Options.dll" t="Include" />
+          <e p="Microsoft.Extensions.Primitives.dll" t="Include" />
+          <e p="MySqlConnector.dll" t="Include" />
+          <e p="Newtonsoft.Json.dll" t="Include" />
+          <e p="runtimes" t="Include">
+            <e p="unix" t="Include">
+              <e p="lib" t="Include">
+                <e p="netcoreapp2.1" t="Include">
+                  <e p="System.Data.SqlClient.dll" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="win" t="Include">
+              <e p="lib" t="Include">
+                <e p="netcoreapp2.0" t="Include">
+                  <e p="System.Text.Encoding.CodePages.dll" t="Include" />
+                </e>
+                <e p="netcoreapp2.1" t="Include">
+                  <e p="System.Data.SqlClient.dll" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="win-arm64" t="Include">
+              <e p="native" t="Include">
+                <e p="sni.dll" t="Include" />
+              </e>
+            </e>
+            <e p="win-x64" t="Include">
+              <e p="native" t="Include">
+                <e p="sni.dll" t="Include" />
+              </e>
+            </e>
+            <e p="win-x86" t="Include">
+              <e p="native" t="Include">
+                <e p="sni.dll" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Serilog.dll" t="Include" />
+          <e p="Serilog.Extensions.Logging.dll" t="Include" />
+          <e p="Serilog.Extensions.Logging.File.dll" t="Include" />
+          <e p="Serilog.Formatting.Compact.dll" t="Include" />
+          <e p="Serilog.Sinks.Async.dll" t="Include" />
+          <e p="Serilog.Sinks.File.dll" t="Include" />
+          <e p="Serilog.Sinks.RollingFile.dll" t="Include" />
+          <e p="System.Data.SqlClient.dll" t="Include" />
+          <e p="System.Runtime.CompilerServices.Unsafe.dll" t="Include" />
+          <e p="System.Text.Encoding.CodePages.dll" t="Include" />
+          <e p="zapsi_service_mstechnik_importer.deps.json" t="Include" />
+          <e p="zapsi_service_mstechnik_importer.dll" t="Include" />
+          <e p="zapsi_service_mstechnik_importer.pdb" t="Include" />
+          <e p="zapsi_service_mstechnik_importer.runtimeconfig.json" t="Include" />
+        </e>
+        <e p="Updateversion.ps1" t="Include" />
+        <e p="User.cs" t="Include" />
+        <e p="Version.bat" t="Include" />
+        <e p="zapsi_service_mstechnik_importer.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="zapsi_service_mstechnik_importer.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
