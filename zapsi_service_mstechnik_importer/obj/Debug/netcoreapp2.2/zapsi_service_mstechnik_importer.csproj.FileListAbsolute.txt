@@ -1,11 +1,22 @@
-C:\Users\jahod\zapsi.eu\Zapsi - Documents\Software\Petr Jahoda\zapsi_service_mstechnik_importer\zapsi_service_mstechnik_importer\bin\Debug\netcoreapp2.2\zapsi_service_mstechnik_importer.deps.json
-C:\Users\jahod\zapsi.eu\Zapsi - Documents\Software\Petr Jahoda\zapsi_service_mstechnik_importer\zapsi_service_mstechnik_importer\bin\Debug\netcoreapp2.2\zapsi_service_mstechnik_importer.runtimeconfig.json
-C:\Users\jahod\zapsi.eu\Zapsi - Documents\Software\Petr Jahoda\zapsi_service_mstechnik_importer\zapsi_service_mstechnik_importer\bin\Debug\netcoreapp2.2\zapsi_service_mstechnik_importer.runtimeconfig.dev.json
-C:\Users\jahod\zapsi.eu\Zapsi - Documents\Software\Petr Jahoda\zapsi_service_mstechnik_importer\zapsi_service_mstechnik_importer\bin\Debug\netcoreapp2.2\zapsi_service_mstechnik_importer.dll
-C:\Users\jahod\zapsi.eu\Zapsi - Documents\Software\Petr Jahoda\zapsi_service_mstechnik_importer\zapsi_service_mstechnik_importer\bin\Debug\netcoreapp2.2\zapsi_service_mstechnik_importer.pdb
-C:\Users\jahod\zapsi.eu\Zapsi - Documents\Software\Petr Jahoda\zapsi_service_mstechnik_importer\zapsi_service_mstechnik_importer\obj\Debug\netcoreapp2.2\zapsi_service_mstechnik_importer.csprojAssemblyReference.cache
-C:\Users\jahod\zapsi.eu\Zapsi - Documents\Software\Petr Jahoda\zapsi_service_mstechnik_importer\zapsi_service_mstechnik_importer\obj\Debug\netcoreapp2.2\zapsi_service_mstechnik_importer.csproj.CoreCompileInputs.cache
-C:\Users\jahod\zapsi.eu\Zapsi - Documents\Software\Petr Jahoda\zapsi_service_mstechnik_importer\zapsi_service_mstechnik_importer\obj\Debug\netcoreapp2.2\zapsi_service_mstechnik_importer.AssemblyInfoInputs.cache
-C:\Users\jahod\zapsi.eu\Zapsi - Documents\Software\Petr Jahoda\zapsi_service_mstechnik_importer\zapsi_service_mstechnik_importer\obj\Debug\netcoreapp2.2\zapsi_service_mstechnik_importer.AssemblyInfo.cs
-C:\Users\jahod\zapsi.eu\Zapsi - Documents\Software\Petr Jahoda\zapsi_service_mstechnik_importer\zapsi_service_mstechnik_importer\obj\Debug\netcoreapp2.2\zapsi_service_mstechnik_importer.dll
-C:\Users\jahod\zapsi.eu\Zapsi - Documents\Software\Petr Jahoda\zapsi_service_mstechnik_importer\zapsi_service_mstechnik_importer\obj\Debug\netcoreapp2.2\zapsi_service_mstechnik_importer.pdb
+C:/Users/jahod/zapsi.eu/Zapsi - Documents/Software/Petr Jahoda/zapsi_service_mstechnik_importer/zapsi_service_mstechnik_importer/bin/Debug/netcoreapp2.2/zapsi_service_mstechnik_importer.deps.json
+C:/Users/jahod/zapsi.eu/Zapsi - Documents/Software/Petr Jahoda/zapsi_service_mstechnik_importer/zapsi_service_mstechnik_importer/bin/Debug/netcoreapp2.2/zapsi_service_mstechnik_importer.runtimeconfig.json
+C:/Users/jahod/zapsi.eu/Zapsi - Documents/Software/Petr Jahoda/zapsi_service_mstechnik_importer/zapsi_service_mstechnik_importer/bin/Debug/netcoreapp2.2/zapsi_service_mstechnik_importer.runtimeconfig.dev.json
+C:/Users/jahod/zapsi.eu/Zapsi - Documents/Software/Petr Jahoda/zapsi_service_mstechnik_importer/zapsi_service_mstechnik_importer/bin/Debug/netcoreapp2.2/zapsi_service_mstechnik_importer.dll
+C:/Users/jahod/zapsi.eu/Zapsi - Documents/Software/Petr Jahoda/zapsi_service_mstechnik_importer/zapsi_service_mstechnik_importer/bin/Debug/netcoreapp2.2/zapsi_service_mstechnik_importer.pdb
+C:/Users/jahod/zapsi.eu/Zapsi - Documents/Software/Petr Jahoda/zapsi_service_mstechnik_importer/zapsi_service_mstechnik_importer/obj/Debug/netcoreapp2.2/zapsi_service_mstechnik_importer.csprojAssemblyReference.cache
+C:/Users/jahod/zapsi.eu/Zapsi - Documents/Software/Petr Jahoda/zapsi_service_mstechnik_importer/zapsi_service_mstechnik_importer/obj/Debug/netcoreapp2.2/zapsi_service_mstechnik_importer.csproj.CoreCompileInputs.cache
+C:/Users/jahod/zapsi.eu/Zapsi - Documents/Software/Petr Jahoda/zapsi_service_mstechnik_importer/zapsi_service_mstechnik_importer/obj/Debug/netcoreapp2.2/zapsi_service_mstechnik_importer.AssemblyInfoInputs.cache
+C:/Users/jahod/zapsi.eu/Zapsi - Documents/Software/Petr Jahoda/zapsi_service_mstechnik_importer/zapsi_service_mstechnik_importer/obj/Debug/netcoreapp2.2/zapsi_service_mstechnik_importer.AssemblyInfo.cs
+C:/Users/jahod/zapsi.eu/Zapsi - Documents/Software/Petr Jahoda/zapsi_service_mstechnik_importer/zapsi_service_mstechnik_importer/obj/Debug/netcoreapp2.2/zapsi_service_mstechnik_importer.dll
+C:/Users/jahod/zapsi.eu/Zapsi - Documents/Software/Petr Jahoda/zapsi_service_mstechnik_importer/zapsi_service_mstechnik_importer/obj/Debug/netcoreapp2.2/zapsi_service_mstechnik_importer.pdb
+/Users/petrjahoda/RiderProjects/zapsi_service_mstechnik_importer/zapsi_service_mstechnik_importer/bin/Debug/netcoreapp2.2/zapsi_service_mstechnik_importer.deps.json
+/Users/petrjahoda/RiderProjects/zapsi_service_mstechnik_importer/zapsi_service_mstechnik_importer/bin/Debug/netcoreapp2.2/zapsi_service_mstechnik_importer.runtimeconfig.json
+/Users/petrjahoda/RiderProjects/zapsi_service_mstechnik_importer/zapsi_service_mstechnik_importer/bin/Debug/netcoreapp2.2/zapsi_service_mstechnik_importer.runtimeconfig.dev.json
+/Users/petrjahoda/RiderProjects/zapsi_service_mstechnik_importer/zapsi_service_mstechnik_importer/bin/Debug/netcoreapp2.2/zapsi_service_mstechnik_importer.dll
+/Users/petrjahoda/RiderProjects/zapsi_service_mstechnik_importer/zapsi_service_mstechnik_importer/bin/Debug/netcoreapp2.2/zapsi_service_mstechnik_importer.pdb
+/Users/petrjahoda/RiderProjects/zapsi_service_mstechnik_importer/zapsi_service_mstechnik_importer/obj/Debug/netcoreapp2.2/zapsi_service_mstechnik_importer.csprojAssemblyReference.cache
+/Users/petrjahoda/RiderProjects/zapsi_service_mstechnik_importer/zapsi_service_mstechnik_importer/obj/Debug/netcoreapp2.2/zapsi_service_mstechnik_importer.csproj.CoreCompileInputs.cache
+/Users/petrjahoda/RiderProjects/zapsi_service_mstechnik_importer/zapsi_service_mstechnik_importer/obj/Debug/netcoreapp2.2/zapsi_service_mstechnik_importer.AssemblyInfoInputs.cache
+/Users/petrjahoda/RiderProjects/zapsi_service_mstechnik_importer/zapsi_service_mstechnik_importer/obj/Debug/netcoreapp2.2/zapsi_service_mstechnik_importer.AssemblyInfo.cs
+/Users/petrjahoda/RiderProjects/zapsi_service_mstechnik_importer/zapsi_service_mstechnik_importer/obj/Debug/netcoreapp2.2/zapsi_service_mstechnik_importer.dll
+/Users/petrjahoda/RiderProjects/zapsi_service_mstechnik_importer/zapsi_service_mstechnik_importer/obj/Debug/netcoreapp2.2/zapsi_service_mstechnik_importer.pdb

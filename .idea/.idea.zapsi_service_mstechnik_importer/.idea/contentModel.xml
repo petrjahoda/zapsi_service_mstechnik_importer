@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\jahod\.Rider2019.1\config\consoles\db" t="IncludeRecursive" />
-    <e p="C:\Users\jahod\.Rider2019.1\config\extensions" t="IncludeRecursive" />
-    <e p="C:\Users\jahod\.Rider2019.1\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\jahod\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_zapsi_service_mstechnik_importer.1612470291.00" t="ExcludeRecursive" />
-    <e p="C:\Users\jahod\zapsi.eu\Zapsi - Documents\Software\Petr Jahoda\zapsi_service_mstechnik_importer" t="IncludeFlat">
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_zapsi_service_mstechnik_importer.-507125955.00" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
       <e p="zapsi_service_mstechnik_importer" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />

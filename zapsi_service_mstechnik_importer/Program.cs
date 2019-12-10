@@ -14,7 +14,7 @@ using Newtonsoft.Json;
 
 namespace zapsi_service_mstechnik_importer {
     class Program {
-        private const string BuildDate = "2019.2.3.11";
+        private const string BuildDate = "2019.4.3.10";
         private const string DataFolder = "Logs";
         private const string RedColor = "\u001b[31;1m";
         private const string YellowColor = "\u001b[33;1m";
@@ -192,7 +192,7 @@ namespace zapsi_service_mstechnik_importer {
 
         private static List<Order> DownloadActualOrdersFromExternalDatabase(ILogger logger) {
             var orders = new List<Order>();
-            var connection = new SqlConnection {ConnectionString = @"Data Source=192.168.170.3\qiserver; Initial Catalog=QI; User id=zapsi; Password=12MSzap*;"};
+            var connection = new SqlConnection {ConnectionString = @"Data Source=172.16.2.13\qiserver; Initial Catalog=QI; User id=zapsi; Password=12MSzap*;"};
 
             try {
                 connection.Open();
@@ -296,7 +296,7 @@ namespace zapsi_service_mstechnik_importer {
 
         private static List<Product> DownloadActualProductsFromExternalDatabase(ILogger logger) {
             var products = new List<Product>();
-            var connection = new SqlConnection {ConnectionString = @"Data Source=192.168.170.3\qiserver; Initial Catalog=QI; User id=zapsi; Password=12MSzap*;"};
+            var connection = new SqlConnection {ConnectionString = @"Data Source=172.16.2.13\qiserver; Initial Catalog=QI; User id=zapsi; Password=12MSzap*;"};
 
             try {
                 connection.Open();
@@ -399,7 +399,7 @@ namespace zapsi_service_mstechnik_importer {
 
         private static IEnumerable<User> DownloadActualUsersFromOtherDatabase(ILogger logger) {
             var users = new List<User>();
-            var connection = new SqlConnection {ConnectionString = @"Data Source=192.168.170.3\qiserver; Initial Catalog=QI; User id=zapsi; Password=12MSzap*;"};
+            var connection = new SqlConnection {ConnectionString = @"Data Source=172.16.2.13\qiserver; Initial Catalog=QI; User id=zapsi; Password=12MSzap*;"};
 
             try {
                 connection.Open();

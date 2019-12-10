@@ -1,14 +1,11 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\jahod\\zapsi.eu\\Zapsi - Documents\\Software\\Petr Jahoda\\zapsi_service_mstechnik_importer\\zapsi_service_mstechnik_importer\\zapsi_service_mstechnik_importer.csproj",
+    "projectUniqueName": "/Users/petrjahoda/RiderProjects/zapsi_service_mstechnik_importer/zapsi_service_mstechnik_importer/zapsi_service_mstechnik_importer.csproj",
     "projectName": "zapsi_service_mstechnik_importer",
-    "projectPath": "C:\\Users\\jahod\\zapsi.eu\\Zapsi - Documents\\Software\\Petr Jahoda\\zapsi_service_mstechnik_importer\\zapsi_service_mstechnik_importer\\zapsi_service_mstechnik_importer.csproj",
-    "outputPath": "C:\\Users\\jahod\\zapsi.eu\\Zapsi - Documents\\Software\\Petr Jahoda\\zapsi_service_mstechnik_importer\\zapsi_service_mstechnik_importer\\obj\\",
+    "projectPath": "/Users/petrjahoda/RiderProjects/zapsi_service_mstechnik_importer/zapsi_service_mstechnik_importer/zapsi_service_mstechnik_importer.csproj",
+    "outputPath": "/Users/petrjahoda/RiderProjects/zapsi_service_mstechnik_importer/zapsi_service_mstechnik_importer/obj/",
     "projectStyle": "PackageReference",
-    "fallbackFolders": [
-      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-    ],
     "originalTargetFrameworks": [
       "netcoreapp2.2"
     ],
